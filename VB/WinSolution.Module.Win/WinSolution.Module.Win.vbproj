@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCCC3DBD-8A6C-42ED-85E7-FB2403937AED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>WinSolution.Module.Win</AssemblyName>
+    <FileUpgradeFlags></FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation></UpgradeBackupLocation>
+    <PublishUrl>http://localhost/WinSolution.Module.Win/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.TreeListEditors.Win.v8.2, Version=8.2.4.4816, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.ExpressApp.TreeListEditors.Win.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.Utils.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.Data.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.ExpressApp.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.ExpressApp.Objects.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.ExpressApp.Security.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.ExpressApp.Validation.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.Win.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.ExpressApp.Validation.Win.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.ExpressApp.Win.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.Persistent.Base.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.Persistent.BaseImpl.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.Xpo.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraEditors.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraGrid.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraLayout.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraNavBar.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraBars.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraPrinting.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v8.2.Core">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.Charts.v8.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraCharts.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichTextEdit.v8.2">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraRichTextEdit.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9B171C9FD64DA1D1">
+      <Private>True</Private>
+      <HintPath>D:\Projects\Test_Examples\DLLs\8.2.4\DevExpress.XtraTreeList.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FilterTreeListViewController.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FilterTreeListViewController.Designer.vb">
+      <DependentUpon>FilterTreeListViewController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WinModule.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Updater.vb" />
+    <Compile Include="WinModule.Designer.vb">
+      <DependentUpon>WinModule.vb</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FilterTreeListViewController.resx">
+      <DependentUpon>FilterTreeListViewController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="WinModule.resx">
+      <DependentUpon>WinModule.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinSolution.Module\WinSolution.Module.vbproj">
+      <Project>{A33B8A6A-F011-40A7-89BD-1E7417158573}</Project>
+      <Name>WinSolution.Module</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
