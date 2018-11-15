@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[FilterTreeListViewController.cs](./CS/WinSolution.Module.Win/FilterTreeListViewController.cs) (VB: [FilterTreeListViewController.vb](./VB/WinSolution.Module.Win/FilterTreeListViewController.vb))**
+<!-- default file list end -->
 # How to search and focus nodes in the Tree List editor
 
 
